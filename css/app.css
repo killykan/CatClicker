@@ -1,0 +1,45 @@
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+
+  justify-content: space-around;
+
+}
+
+#myVideo {                      /*full background video loop from Videezy*/
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.95;
+}
+
+h1 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+.box{
+
+  opacity: 0.70;
+  width: 40%;
+  text-align: center;
+}
+
+ .box img {
+   width: 100%;
+   object-fit: contain;
+   overflow: hidden;
+ }
+
+ .box figcaption {
+   font-size: 2rem;
+ }
