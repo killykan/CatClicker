@@ -3,7 +3,7 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  //flex-direction: column;
   color: #fff;
   position: relative;
   z-index: 2;
@@ -27,14 +27,32 @@ h1 {
   text-align: center;
   color: #fff;
 }
+
+.list {
+  position: relative;
+  z-index: 2;
+}
+
 .box{
 
-  opacity: 0.70;
-  width: 40%;
+  //opacity: 0.90;
+  width: 60%;
   text-align: center;
+  position: absolute;
+
+}
+
+.hidden{
+  display: none;
+}
+
+.show{
+  display:block;
 }
 
  .box img {
+   border: 2px solid #fff;
+   box-shadow: 5px 5px 5px #fff;
    width: 100%;
    object-fit: contain;
    overflow: hidden;
